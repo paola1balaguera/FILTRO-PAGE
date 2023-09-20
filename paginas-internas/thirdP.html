@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SURYA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="thirdP.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+        <p class="navbar-toggler icon" href="#">SURYA</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="firstP.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="fourthP.html">ACERCA DE NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="thirdP.html">CLIENTES</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script>
+        const nav_cons = document.querySelector(".navbar");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY >= 600) {
+                nav_cons.classList.add("scroll_nav");
+            } else if (window.scrollY < 100) {
+                nav_cons.classList.remove("scroll_nav");
+            }
+        });
+    </script>
+
+        <!-- Customers -->
+    <section class="customers">
+        <h2>¿Por que nuestros clientes nos eligen?</h2>
+        <!-- Customer Content -->
+        <div class="customers-container">
+            <!-- Review 1 -->
+            <div class="box">
+                <i class='bx bxs-quote-alt-left' ></i>
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>"Este restaurante es un pedacito de México en medio de la ciudad. La autenticidad de sus sabores es incomparable. ¡Los tacos al pastor son una delicia! El ambiente es acogedor, y el personal siempre está dispuesto a explicarte los platillos si no estás familiarizado con la comida mexicana."</p>
+                <div class="review-profile">
+
+                    <h3>María G</h3>
+                </div>
+            </div>
+                <!-- Review 2-->
+                <div class="box">
+                <i class='bx bxs-quote-alt-left' ></i>
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>"Si buscas autenticidad, este es el lugar. Las tortillas se hacen a mano, y los sabores son auténticos. El ambiente es agradable y familiar, ideal para una comida en familia. El único inconveniente es que el estacionamiento puede ser un problema los fines de semana."</p>
+                <div class="review-profile">
+                    <h3>Pedro Cortes</h3>
+                </div>
+            </div>
+                <!-- Review 3 -->
+                <div class="box">
+                <i class='bx bxs-quote-alt-left' ></i>
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>"Buena comida a un precio razonable. Las enchiladas verdes son mi plato favorito aquí. El pollo tierno y la salsa verde tienen el nivel justo de picante. El margarita es fuerte y delicioso, lo que complementa perfectamente la comida. El único inconveniente es que a veces el lugar puede estar un poco lleno, pero vale la pena la espera."</p>
+                <div class="review-profile">
+                    <h3>Juan Andres Betancourt</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+</html>
